@@ -1,0 +1,37 @@
+# Задача «Длина слова»
+a = 'произвольную строку'
+print(len(a))
+
+# Задача «Суммы и разности»
+first = int(input("Введите первое число: "))
+second = int(input("Введите второе число: "))
+
+summa = first + second
+diff = first - second
+
+print("Сумма:", summa)
+print("Разность:", diff)
+
+# Задача «Среднее арифметическое»
+first = int(input("Введите первое число: "))
+second = int(input("Введите второе число: "))
+third = int(input("Введите третье число: "))
+
+mean = (first + second + third) / 3
+
+print("Среднее арифметическое:", mean)
+
+# Задача «Простые строчки»
+first_string = "Вторник"
+second_string = "Понедельник"
+
+print(second_string + ", " + first_string)
+
+# Задача «Сложная формула»
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+c = int(input("Введите третье число: "))
+
+f = ((a * b) + (a * c)) ** 3 / 2
+
+print(f)
